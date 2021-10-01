@@ -10,7 +10,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    
+    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -94,9 +94,9 @@ header{
 }
 
 header .user img{
-    height:26rem;
-    width:24rem;
-    border-radius: 10%;
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
     border:.7rem solid var(--yellow);
@@ -335,7 +335,7 @@ header .navbar ul li a:hover{
 
 .contact .row form .box::placeholder{
     text-transform: capitalize;
-}
+ } 
 
 .contact .row form .message{
     height: 15rem;
@@ -349,6 +349,9 @@ header .navbar ul li a:hover{
     padding-bottom: 2rem;
 }
 
+.info1{
+	text-transform: lowercase;
+}
 .contact .row .content .info h3{
     display: flex;
     align-items: center;
@@ -361,6 +364,7 @@ header .navbar ul li a:hover{
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--yellow);
+	
 }
 
 .top{
@@ -369,19 +373,6 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
